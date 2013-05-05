@@ -2,11 +2,11 @@ MVCnoOOP
 ========
 Contents:
 =====
-  Topic
+  - Topic
   
-  Description and realization
+  - Description and realization
   
-  How to use
+  - How to use
 
 1. Topic
 ========
@@ -21,11 +21,13 @@ when student didn't need to think about in OO way )
 Using a set of functions I simulate MVC model and successfully separated the logic of the site layout.
 
 Structure in folders
+(site is divided into three logical sections):
 
-site is divided into three logical sections:
-Controller - which accepts data relating to navigation, sessions and engage model
-Model - in addition to the initial model, which collects all the general information, Each page has its own model that prepares data relevant to the page - all information is packed into an associative global array $model
-View - that we also show that the initial loading elements that are fixed for each page (header and footer) and the data obtained from the model forwarded to a page that is in the template folder
+- Controller - which accepts data relating to navigation, sessions and engage model
+
+- Model - in addition to the initial model, which collects all the general information, Each page has its own model that prepares data relevant to the page - all information is packed into an associative global array $model
+
+- View - that we also show that the initial loading elements that are fixed for each page (header and footer) and the data obtained from the model forwarded to a page that is in the template folder
 
 3. How to use
 ===
